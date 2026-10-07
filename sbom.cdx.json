@@ -1,0 +1,348 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:280c694f-fc09-5fac-9f12-c8e7f270f910",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T09:32:57Z",
+  "component": {
+   "type": "application",
+   "name": "CCSI",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/CCSI@83b357604d34",
+   "purl": "pkg:generic/anticloud/CCSI@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@changesets/cli",
+   "version": "^2.31.0",
+   "purl": "pkg:npm/@changesets/cli@^2.31.0",
+   "bom-ref": "npm/@changesets/cli@^2.31.0"
+  },
+  {
+   "type": "library",
+   "name": "@eslint-community/eslint-plugin-eslint-comments",
+   "version": "^4.7.2",
+   "purl": "pkg:npm/@eslint-community/eslint-plugin-eslint-comments@^4.7.2",
+   "bom-ref": "npm/@eslint-community/eslint-plugin-eslint-comments@^4.7.2"
+  },
+  {
+   "type": "library",
+   "name": "@happy-dom/global-registrator",
+   "version": "^20.10.6",
+   "purl": "pkg:npm/@happy-dom/global-registrator@^20.10.6",
+   "bom-ref": "npm/@happy-dom/global-registrator@^20.10.6"
+  },
+  {
+   "type": "library",
+   "name": "@types/bun",
+   "version": "^1.3.0",
+   "purl": "pkg:npm/@types/bun@^1.3.0",
+   "bom-ref": "npm/@types/bun@^1.3.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/node",
+   "version": "^20.19.0",
+   "purl": "pkg:npm/@types/node@^20.19.0",
+   "bom-ref": "npm/@types/node@^20.19.0"
+  },
+  {
+   "type": "library",
+   "name": "@typescript-eslint/eslint-plugin",
+   "version": "^8.62.0",
+   "purl": "pkg:npm/@typescript-eslint/eslint-plugin@^8.62.0",
+   "bom-ref": "npm/@typescript-eslint/eslint-plugin@^8.62.0"
+  },
+  {
+   "type": "library",
+   "name": "@typescript-eslint/parser",
+   "version": "^8.62.0",
+   "purl": "pkg:npm/@typescript-eslint/parser@^8.62.0",
+   "bom-ref": "npm/@typescript-eslint/parser@^8.62.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint",
+   "version": "^9.39.0",
+   "purl": "pkg:npm/eslint@^9.39.0",
+   "bom-ref": "npm/eslint@^9.39.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint-import-resolver-typescript",
+   "version": "^4.4.5",
+   "purl": "pkg:npm/eslint-import-resolver-typescript@^4.4.5",
+   "bom-ref": "npm/eslint-import-resolver-typescript@^4.4.5"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-boundaries",
+   "version": "^6.0.2",
+   "purl": "pkg:npm/eslint-plugin-boundaries@^6.0.2",
+   "bom-ref": "npm/eslint-plugin-boundaries@^6.0.2"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-import-x",
+   "version": "^4",
+   "purl": "pkg:npm/eslint-plugin-import-x@^4",
+   "bom-ref": "npm/eslint-plugin-import-x@^4"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-react-hooks",
+   "version": "^7.1.1",
+   "purl": "pkg:npm/eslint-plugin-react-hooks@^7.1.1",
+   "bom-ref": "npm/eslint-plugin-react-hooks@^7.1.1"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-regexp",
+   "version": "^3.1.1",
+   "purl": "pkg:npm/eslint-plugin-regexp@^3.1.1",
+   "bom-ref": "npm/eslint-plugin-regexp@^3.1.1"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-sonarjs",
+   "version": "^4.1.0",
+   "purl": "pkg:npm/eslint-plugin-sonarjs@^4.1.0",
+   "bom-ref": "npm/eslint-plugin-sonarjs@^4.1.0"
+  },
+  {
+   "type": "library",
+   "name": "eslint-plugin-unicorn",
+   "version": "^70.0.0",
+   "purl": "pkg:npm/eslint-plugin-unicorn@^70.0.0",
+   "bom-ref": "npm/eslint-plugin-unicorn@^70.0.0"
+  },
+  {
+   "type": "library",
+   "name": "happy-dom",
+   "version": "^20.10.6",
+   "purl": "pkg:npm/happy-dom@^20.10.6",
+   "bom-ref": "npm/happy-dom@^20.10.6"
+  },
+  {
+   "type": "library",
+   "name": "prettier",
+   "version": "^3.9.0",
+   "purl": "pkg:npm/prettier@^3.9.0",
+   "bom-ref": "npm/prettier@^3.9.0"
+  },
+  {
+   "type": "library",
+   "name": "typescript",
+   "version": "^5.9.0",
+   "purl": "pkg:npm/typescript@^5.9.0",
+   "bom-ref": "npm/typescript@^5.9.0"
+  },
+  {
+   "type": "library",
+   "name": "typescript-eslint",
+   "version": "^8.62.0",
+   "purl": "pkg:npm/typescript-eslint@^8.62.0",
+   "bom-ref": "npm/typescript-eslint@^8.62.0"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-barbie",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-barbie@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-barbie@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-batman",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-batman@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-batman@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-ben10",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-ben10@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-ben10@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-darth-vader",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-darth-vader@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-darth-vader@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-deadpool",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-deadpool@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-deadpool@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-gandalf",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-gandalf@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-gandalf@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-harry-potter",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-harry-potter@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-harry-potter@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-hello-kitty",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-hello-kitty@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-hello-kitty@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-james-bond",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-james-bond@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-james-bond@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-joker",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-joker@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-joker@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-naruto",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-naruto@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-naruto@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-pikachu",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-pikachu@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-pikachu@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-sherlock-holmes",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-sherlock-holmes@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-sherlock-holmes@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-shinchan",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-shinchan@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-shinchan@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-spiderman",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-spiderman@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-spiderman@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-superman",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-superman@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-superman@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-iron-man",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-iron-man@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-iron-man@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@ccsidekick/pack-yoda",
+   "version": "workspace:*",
+   "purl": "pkg:npm/@ccsidekick/pack-yoda@workspace:*",
+   "bom-ref": "npm/@ccsidekick/pack-yoda@workspace:*"
+  },
+  {
+   "type": "library",
+   "name": "@inkjs/ui",
+   "version": "2.0.0",
+   "purl": "pkg:npm/@inkjs/ui@2.0.0",
+   "bom-ref": "npm/@inkjs/ui@2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "ink",
+   "version": "^5.2.0",
+   "purl": "pkg:npm/ink@^5.2.0",
+   "bom-ref": "npm/ink@^5.2.0"
+  },
+  {
+   "type": "library",
+   "name": "react",
+   "version": "^18.3.1",
+   "purl": "pkg:npm/react@^18.3.1",
+   "bom-ref": "npm/react@^18.3.1"
+  },
+  {
+   "type": "library",
+   "name": "smol-toml",
+   "version": "^1.6.0",
+   "purl": "pkg:npm/smol-toml@^1.6.0",
+   "bom-ref": "npm/smol-toml@^1.6.0"
+  },
+  {
+   "type": "library",
+   "name": "ink-testing-library",
+   "version": "^4.0.0",
+   "purl": "pkg:npm/ink-testing-library@^4.0.0",
+   "bom-ref": "npm/ink-testing-library@^4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/react",
+   "version": "^18.3.12",
+   "purl": "pkg:npm/@types/react@^18.3.12",
+   "bom-ref": "npm/@types/react@^18.3.12"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}

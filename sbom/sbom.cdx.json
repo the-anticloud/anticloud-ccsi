@@ -1,0 +1,109 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:dbf1ccd3-0000-0000-4000-db9dda7adaab",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-05T13:03:40Z",
+  "tools": [
+   {
+    "vendor": "anticloud",
+    "name": "bench15_from_tree",
+    "version": "1.0"
+   }
+  ],
+  "component": {
+   "type": "application",
+   "name": "CCSI",
+   "version": "b79c9e1c3f72",
+   "licenses": [
+    {
+     "license": {
+      "id": "BSD-3-Clause"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:sbom:method",
+    "value": "manifest scan of the real cloned working tree"
+   },
+   {
+    "name": "anticloud:licence_class",
+    "value": "A"
+   },
+   {
+    "name": "anticloud:upstream",
+    "value": "https://github.com/CCSI-Toolset/FOQUS"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "debug",
+   "group": "npm",
+   "version": "",
+   "purl": "pkg:npm/debug",
+   "scope": "required",
+   "evidence": {
+    "manifest": "cloud/aws/foqus-websocket-app/onconnect/package.json"
+   }
+  },
+  {
+   "type": "library",
+   "name": "aws-sdk",
+   "group": "npm",
+   "version": "",
+   "purl": "pkg:npm/aws-sdk",
+   "scope": "required",
+   "evidence": {
+    "manifest": "cloud/aws/foqus-websocket-app/onconnect/package.json"
+   }
+  },
+  {
+   "type": "library",
+   "name": "uuid",
+   "group": "npm",
+   "version": "",
+   "purl": "pkg:npm/uuid",
+   "scope": "required",
+   "evidence": {
+    "manifest": "cloud/aws/node/delete-simulation/package.json"
+   }
+  },
+  {
+   "type": "library",
+   "name": "uuid-validate",
+   "group": "npm",
+   "version": "",
+   "purl": "pkg:npm/uuid-validate",
+   "scope": "required",
+   "evidence": {
+    "manifest": "cloud/aws/node/delete-simulation/package.json"
+   }
+  },
+  {
+   "type": "library",
+   "name": "collections",
+   "group": "npm",
+   "version": "",
+   "purl": "pkg:npm/collections",
+   "scope": "required",
+   "evidence": {
+    "manifest": "cloud/aws/node/post-session-result/package.json"
+   }
+  }
+ ],
+ "component_count": 5,
+ "languages_detected": {
+  "JavaScript": 3414,
+  "reStructuredText": 1804,
+  "Python": 775,
+  "Markdown": 464,
+  "Make": 246,
+  "PowerShell": 19,
+  "Text": 8
+ }
+}

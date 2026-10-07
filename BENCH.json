@@ -1,0 +1,1151 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "CCSI",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CARBON_CAPTURE\\CCSI\\UPSTREAM_CLONE",
+  "git": {
+   "head": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE",
+   "url": "https://github.com/the-anticloud/OPENMRS_CORE.git",
+   "branch": "master",
+   "committed_at": "2026-09-29T11:06:59+04:00",
+   "sha_verified_from": "local clone .git file read (no .git dir in clone)"
+  }
+ },
+ "metrics": {
+  "files_total": 508,
+  "source_files_scanned": 361,
+  "lines_of_code": 39120,
+  "languages": {
+   ".ts": 279,
+   ".tsx": 75,
+   ".json": 49,
+   ".md": 46,
+   ".svg": 21,
+   "(none)": 8,
+   ".sh": 6,
+   ".toml": 4,
+   ".png": 3,
+   ".txt": 2,
+   ".jsonl": 2,
+   ".gif": 2,
+   ".mp4": 2,
+   ".lock": 1,
+   ".js": 1
+  }
+ },
+ "licence": {
+  "spdx": "MIT",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 43,
+  "unique": 43,
+  "by_ecosystem": {
+   "npm": 43
+  },
+  "list": [
+   {
+    "ecosystem": "npm",
+    "name": "@changesets/cli",
+    "version": "^2.31.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@eslint-community/eslint-plugin-eslint-comments",
+    "version": "^4.7.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@happy-dom/global-registrator",
+    "version": "^20.10.6",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/bun",
+    "version": "^1.3.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^20.19.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@typescript-eslint/eslint-plugin",
+    "version": "^8.62.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@typescript-eslint/parser",
+    "version": "^8.62.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^9.39.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-import-resolver-typescript",
+    "version": "^4.4.5",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-boundaries",
+    "version": "^6.0.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-import-x",
+    "version": "^4",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react-hooks",
+    "version": "^7.1.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-regexp",
+    "version": "^3.1.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-sonarjs",
+    "version": "^4.1.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-unicorn",
+    "version": "^70.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "happy-dom",
+    "version": "^20.10.6",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "^3.9.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^5.9.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript-eslint",
+    "version": "^8.62.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-barbie",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-batman",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-ben10",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-darth-vader",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-deadpool",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-gandalf",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-harry-potter",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-hello-kitty",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-james-bond",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-joker",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-naruto",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-pikachu",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-sherlock-holmes",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-shinchan",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-spiderman",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-superman",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-iron-man",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@ccsidekick/pack-yoda",
+    "version": "workspace:*",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@inkjs/ui",
+    "version": "2.0.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ink",
+    "version": "^5.2.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^18.3.1",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "smol-toml",
+    "version": "^1.6.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ink-testing-library",
+    "version": "^4.0.0",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^18.3.12",
+    "source_file": "packages/core/package.json",
+    "raw": ""
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 51,
+  "files_with_findings": 50,
+  "severity": {
+   "high": 10,
+   "medium": 0,
+   "low": 41
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A03-Injection": {
+    "count": 10,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "scripts/website/site-context.ts",
+      "line": 41,
+      "cwe": "CWE-95",
+      "snippet": "const bgColor = /^\\s*bg:\\s*\"(#[0-9a-fA-F]+)\"/m.exec(design)?.[1] ?? \"#0b0e14\";"
+     },
+     {
+      "severity": "high",
+      "file": "scripts/website/site-demo.test.ts",
+      "line": 18,
+      "cwe": "CWE-95",
+      "snippet": "eval(code);"
+     },
+     {
+      "severity": "high",
+      "file": "scripts/website/site-tokens.ts",
+      "line": 11,
+      "cwe": "CWE-95",
+      "snippet": "const fm = /^---\\n([\\s\\S]*?)\\n---/.exec(src)?.[1];"
+     },
+     {
+      "severity": "high",
+      "file": "packages/core/test/tui/preview/render.test.ts",
+      "line": 95,
+      "cwe": "CWE-95",
+      "snippet": "const chat = Number(/Chat Cost: \\$([\\d.]+)/.exec(out)?.[1]);"
+     },
+     {
+      "severity": "high",
+      "file": "packages/core/src/sources/git.ts",
+      "line": 170,
+      "cwe": "CWE-95",
+      "snippet": "const m = /\\+(\\d+)\\s+-(\\d+)/.exec(line);"
+     },
+     {
+      "severity": "high",
+      "file": "packages/core/src/sources/helpfulEnv.ts",
+      "line": 29,
+      "cwe": "CWE-95",
+      "snippet": "const m = /^current-context:\\s*(\\S.*)$/m.exec(content);"
+     },
+     {
+      "severity": "high",
+      "file": "packages/core/src/sources/locale.ts",
+      "line": 65,
+      "cwe": "CWE-95",
+      "snippet": "const match = /[-_]([a-z]{2})(?:[-_.@]|$)/i.exec(locale);"
+     },
+     {
+      "severity": "high",
+      "file": "packages/core/src/cli/render.test.ts",
+      "line": 107,
+      "cwe": "CWE-95",
+      "snippet": "return /Project Cost: (\\$[\\d.,]+)/.exec(line)?.[1] ?? \"\";"
+     },
+     {
+      "severity": "high",
+      "file": "packages/core/scripts/readme-drift.ts",
+      "line": 22,
+      "cwe": "CWE-95",
+      "snippet": "return re.exec(s)?.[1];"
+     },
+     {
+      "severity": "high",
+      "file": "packages/core/scripts/refresh-pricing.ts",
+      "line": 49,
+      "cwe": "CWE-95",
+      "snippet": "const m = /^Claude (Opus|Sonnet|Haiku|Fable|Mythos) (\\d+(?:\\.\\d+)?)$/.exec(display);"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 36,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "scripts/website/site-data-build.ts",
+      "line": 87,
+      "cwe": "CWE-",
+      "snippet": "todo: { label: \"Todo\", sample: \"3/7 done\" },"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/test/tui/widgets/scrollBox.test.tsx",
+      "line": 18,
+      "cwe": "CWE-",
+      "snippet": "const lines = [\"ABCDEFGHIJ\", \"1234567890\", \"row3xxxxxx\", \"row4yyyyyy\", \"row5zzzzzz\"];"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/test/tui/shell/dashboardPreview.test.tsx",
+      "line": 116,
+      "cwe": "CWE-",
+      "snippet": "test(\"the preview force-enables the compactions/todo widgets so the fixture's demo data shows\", async () => {"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/test/tui/sections/formSection.test.tsx",
+      "line": 36,
+      "cwe": "CWE-",
+      "snippet": "expect(frame).not.toContain(\"todo\"); // last widget is off-window at cursor 0"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/test/tui/preview/fixture.test.ts",
+      "line": 46,
+      "cwe": "CWE-",
+      "snippet": "test(\"basePayload seeds a current-session transcript with compactions and an in-progress todo\", () => {"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/test/tui/preview/scenarios.test.ts",
+      "line": 68,
+      "cwe": "CWE-",
+      "snippet": "test(\"a 'Busy session' scenario exists to demo the compactions/todo widgets\", () => {"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/test/integration/render-pipeline.test.ts",
+      "line": 109,
+      "cwe": "CWE-",
+      "snippet": "todos: [],"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/test/cli/settings.test.ts",
+      "line": 25,
+      "cwe": "CWE-",
+      "snippet": "\"Bash|Edit|Write|NotebookEdit|Read|Grep|Glob|WebFetch|WebSearch|Agent|TaskCreate|TaskUpdate|Task|Skill|TodoWrite\";"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/test/cli/uninstall.test.ts",
+      "line": 24,
+      "cwe": "CWE-",
+      "snippet": "\"Bash|Edit|Write|NotebookEdit|Read|Grep|Glob|WebFetch|WebSearch|Agent|TaskCreate|TaskUpdate|Task|Skill|TodoWrite\";"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/web/demo-fixture.ts",
+      "line": 4,
+      "cwe": "CWE-",
+      "snippet": "// tree on disk (token cost, burn, todos, cache-hit), and `git`. In the browser there is no disk and no"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/tui/shell/scenarioBodies.ts",
+      "line": 33,
+      "cwe": "CWE-",
+      "snippet": "// The compactions/todo widgets default off (most sessions show neither), so force them on for the"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/tui/sections/widgetGroups.ts",
+      "line": 50,
+      "cwe": "CWE-",
+      "snippet": "widgets: [\"dir\", \"added_dirs\", \"session_name\", \"session_duration\", \"todo\"],"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/tui/preview/fixture.ts",
+      "line": 19,
+      "cwe": "CWE-",
+      "snippet": "/** One `compact_boundary` system line, plus one `TodoWrite` snapshot with a completed and an in-progress"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/tui/preview/scenarios.ts",
+      "line": 73,
+      "cwe": "CWE-",
+      "snippet": "// for the compactions/todo widgets (the preview force-enables both, since they default off)."
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/sources/config.ts",
+      "line": 86,
+      "cwe": "CWE-",
+      "snippet": "todo: false,"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/sources/env.test.ts",
+      "line": 6,
+      "cwe": "CWE-",
+      "snippet": "const e = readEnv({ ANTHROPIC_API_KEY: \"sk-xxx\", CLAUDE_CODE_USE_BEDROCK: \"1\" });"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/sources/transcript.test.ts",
+      "line": 38,
+      "cwe": "CWE-",
+      "snippet": "test(\"scanTranscript: dedup, token sums, compaction, todo, speed, burn\", () => {"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/sources/transcript.ts",
+      "line": 45,
+      "cwe": "CWE-",
+      "snippet": "interface TodoItem {"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/render/layout.ts",
+      "line": 13,
+      "cwe": "CWE-",
+      "snippet": "// cwd, `session_name`, `todo` content, the provider badge) \u2014 is stripped of all C0/C1 control bytes and ESC"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/render/theme.ts",
+      "line": 71,
+      "cwe": "CWE-",
+      "snippet": "todo: \"\ud83d\udcdd\","
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/domain/constants.ts",
+      "line": 61,
+      "cwe": "CWE-",
+      "snippet": "export const TODO_STALLED_MIN = 30; // minutes an in-progress todo sits before \"stalled\""
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/domain/enums.ts",
+      "line": 66,
+      "cwe": "CWE-",
+      "snippet": "\"todo_update\","
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/domain/index.ts",
+      "line": 54,
+      "cwe": "CWE-",
+      "snippet": "TODO_STALLED_MIN,"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/domain/structs.ts",
+      "line": 75,
+      "cwe": "CWE-",
+      "snippet": "| \"todo\";"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/derived/classifier.test.ts",
+      "line": 20,
+      "cwe": "CWE-",
+      "snippet": "expect(cat(\"TaskCreate\", \"\")).toBe(\"todo_update\");"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 4,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "scripts/website/serve.ts",
+      "line": 5,
+      "cwe": "CWE-319",
+      "snippet": "//   bun run site:serve      # -> http://localhost:8129/"
+     },
+     {
+      "severity": "low",
+      "file": "scripts/assets/character-reel.sh",
+      "line": 239,
+      "cwe": "CWE-319",
+      "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1280\" height=\"640\" viewBox=\"0 0 1280 640\" font-family=\"ui-monospace, 'SF Mono', Menlo, Con"
+     },
+     {
+      "severity": "low",
+      "file": "scripts/assets/og.sh",
+      "line": 41,
+      "cwe": "CWE-319",
+      "snippet": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"1280\" height=\"640\" viewBox=\"0 0 1280 640\" font-family=\"ui-monospace, 'SF Mono', Menlo, Con"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/sources/env.ts",
+      "line": 24,
+      "cwe": "CWE-319",
+      "snippet": "host = new URL(raw.includes(\"//\") ? raw : `//${raw}`, \"http://x\").hostname;"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "scripts/website/serve.ts",
+      "line": 54,
+      "cwe": "CWE-601",
+      "snippet": "if (redirect) return Response.redirect(redirect.to, redirect.status);"
+     }
+    ]
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 10,
+  "files_with_findings": 10,
+  "severity": {
+   "high": 0,
+   "medium": 5,
+   "low": 5
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 5,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "scripts/website/site-html.ts",
+      "line": 25,
+      "cwe": "CWE-1336",
+      "snippet": "renderTemplate("
+     },
+     {
+      "severity": "medium",
+      "file": "scripts/website/site-render.test.ts",
+      "line": 16,
+      "cwe": "CWE-1336",
+      "snippet": "const html = renderTemplate(tpl, ctx as unknown as Record<string, unknown>);"
+     },
+     {
+      "severity": "medium",
+      "file": "scripts/website/site-seo.test.ts",
+      "line": 17,
+      "cwe": "CWE-1336",
+      "snippet": "renderTemplate("
+     },
+     {
+      "severity": "medium",
+      "file": "scripts/website/site-template.test.ts",
+      "line": 7,
+      "cwe": "CWE-1336",
+      "snippet": "const out = renderTemplate(\"v{{version}} - {{counts.widgets}} widgets\", {"
+     },
+     {
+      "severity": "medium",
+      "file": "scripts/website/site-template.ts",
+      "line": 14,
+      "cwe": "CWE-1336",
+      "snippet": "export function renderTemplate(template: string, ctx: Record<string, unknown>): string {"
+     }
+    ]
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 5,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "packages/core/src/render/color.ts",
+      "line": 5,
+      "cwe": "CWE-",
+      "snippet": "import { THEME_CHROMA_MIN, THEME_MAXCH_MIN, type Mood, type TermContext } from \"../domain\";"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/render/themeValidate.test.ts",
+      "line": 9,
+      "cwe": "CWE-",
+      "snippet": "expect(isVisibleXterm(59)).toBe(false); // (95,95,95) near-grey: chroma 0"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/domain/constants.ts",
+      "line": 43,
+      "cwe": "CWE-",
+      "snippet": "export const THEME_CHROMA_MIN = 40; // max(R,G,B) \u2212 min(R,G,B) floor: rejects near-grey"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/domain/index.ts",
+      "line": 41,
+      "cwe": "CWE-",
+      "snippet": "THEME_CHROMA_MIN,"
+     },
+     {
+      "severity": "low",
+      "file": "packages/core/src/data/themes.ts",
+      "line": 104,
+      "cwe": "CWE-",
+      "snippet": "// sep #5f7e97 \u2192 xterm 66 = RGB(95,135,135), chroma=40, max=135: passes without replacement"
+     }
+    ]
+   },
+   "LLM09-Misinformation": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:280c694f-fc09-5fac-9f12-c8e7f270f910",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-06T09:32:57Z",
+   "component": {
+    "type": "application",
+    "name": "CCSI",
+    "version": "83b357604d34",
+    "bom-ref": "pkg:generic/anticloud/CCSI@83b357604d34",
+    "purl": "pkg:generic/anticloud/CCSI@83b357604d34",
+    "licenses": [
+     {
+      "license": {
+       "id": "MIT"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "@changesets/cli",
+    "version": "^2.31.0",
+    "purl": "pkg:npm/@changesets/cli@^2.31.0",
+    "bom-ref": "npm/@changesets/cli@^2.31.0"
+   },
+   {
+    "type": "library",
+    "name": "@eslint-community/eslint-plugin-eslint-comments",
+    "version": "^4.7.2",
+    "purl": "pkg:npm/@eslint-community/eslint-plugin-eslint-comments@^4.7.2",
+    "bom-ref": "npm/@eslint-community/eslint-plugin-eslint-comments@^4.7.2"
+   },
+   {
+    "type": "library",
+    "name": "@happy-dom/global-registrator",
+    "version": "^20.10.6",
+    "purl": "pkg:npm/@happy-dom/global-registrator@^20.10.6",
+    "bom-ref": "npm/@happy-dom/global-registrator@^20.10.6"
+   },
+   {
+    "type": "library",
+    "name": "@types/bun",
+    "version": "^1.3.0",
+    "purl": "pkg:npm/@types/bun@^1.3.0",
+    "bom-ref": "npm/@types/bun@^1.3.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/node",
+    "version": "^20.19.0",
+    "purl": "pkg:npm/@types/node@^20.19.0",
+    "bom-ref": "npm/@types/node@^20.19.0"
+   },
+   {
+    "type": "library",
+    "name": "@typescript-eslint/eslint-plugin",
+    "version": "^8.62.0",
+    "purl": "pkg:npm/@typescript-eslint/eslint-plugin@^8.62.0",
+    "bom-ref": "npm/@typescript-eslint/eslint-plugin@^8.62.0"
+   },
+   {
+    "type": "library",
+    "name": "@typescript-eslint/parser",
+    "version": "^8.62.0",
+    "purl": "pkg:npm/@typescript-eslint/parser@^8.62.0",
+    "bom-ref": "npm/@typescript-eslint/parser@^8.62.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint",
+    "version": "^9.39.0",
+    "purl": "pkg:npm/eslint@^9.39.0",
+    "bom-ref": "npm/eslint@^9.39.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-import-resolver-typescript",
+    "version": "^4.4.5",
+    "purl": "pkg:npm/eslint-import-resolver-typescript@^4.4.5",
+    "bom-ref": "npm/eslint-import-resolver-typescript@^4.4.5"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-boundaries",
+    "version": "^6.0.2",
+    "purl": "pkg:npm/eslint-plugin-boundaries@^6.0.2",
+    "bom-ref": "npm/eslint-plugin-boundaries@^6.0.2"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-import-x",
+    "version": "^4",
+    "purl": "pkg:npm/eslint-plugin-import-x@^4",
+    "bom-ref": "npm/eslint-plugin-import-x@^4"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-react-hooks",
+    "version": "^7.1.1",
+    "purl": "pkg:npm/eslint-plugin-react-hooks@^7.1.1",
+    "bom-ref": "npm/eslint-plugin-react-hooks@^7.1.1"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-regexp",
+    "version": "^3.1.1",
+    "purl": "pkg:npm/eslint-plugin-regexp@^3.1.1",
+    "bom-ref": "npm/eslint-plugin-regexp@^3.1.1"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-sonarjs",
+    "version": "^4.1.0",
+    "purl": "pkg:npm/eslint-plugin-sonarjs@^4.1.0",
+    "bom-ref": "npm/eslint-plugin-sonarjs@^4.1.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-unicorn",
+    "version": "^70.0.0",
+    "purl": "pkg:npm/eslint-plugin-unicorn@^70.0.0",
+    "bom-ref": "npm/eslint-plugin-unicorn@^70.0.0"
+   },
+   {
+    "type": "library",
+    "name": "happy-dom",
+    "version": "^20.10.6",
+    "purl": "pkg:npm/happy-dom@^20.10.6",
+    "bom-ref": "npm/happy-dom@^20.10.6"
+   },
+   {
+    "type": "library",
+    "name": "prettier",
+    "version": "^3.9.0",
+    "purl": "pkg:npm/prettier@^3.9.0",
+    "bom-ref": "npm/prettier@^3.9.0"
+   },
+   {
+    "type": "library",
+    "name": "typescript",
+    "version": "^5.9.0",
+    "purl": "pkg:npm/typescript@^5.9.0",
+    "bom-ref": "npm/typescript@^5.9.0"
+   },
+   {
+    "type": "library",
+    "name": "typescript-eslint",
+    "version": "^8.62.0",
+    "purl": "pkg:npm/typescript-eslint@^8.62.0",
+    "bom-ref": "npm/typescript-eslint@^8.62.0"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-barbie",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-barbie@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-barbie@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-batman",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-batman@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-batman@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-ben10",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-ben10@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-ben10@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-darth-vader",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-darth-vader@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-darth-vader@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-deadpool",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-deadpool@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-deadpool@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-gandalf",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-gandalf@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-gandalf@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-harry-potter",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-harry-potter@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-harry-potter@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-hello-kitty",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-hello-kitty@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-hello-kitty@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-james-bond",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-james-bond@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-james-bond@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-joker",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-joker@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-joker@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-naruto",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-naruto@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-naruto@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-pikachu",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-pikachu@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-pikachu@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-sherlock-holmes",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-sherlock-holmes@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-sherlock-holmes@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-shinchan",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-shinchan@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-shinchan@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-spiderman",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-spiderman@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-spiderman@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-superman",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-superman@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-superman@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-iron-man",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-iron-man@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-iron-man@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@ccsidekick/pack-yoda",
+    "version": "workspace:*",
+    "purl": "pkg:npm/@ccsidekick/pack-yoda@workspace:*",
+    "bom-ref": "npm/@ccsidekick/pack-yoda@workspace:*"
+   },
+   {
+    "type": "library",
+    "name": "@inkjs/ui",
+    "version": "2.0.0",
+    "purl": "pkg:npm/@inkjs/ui@2.0.0",
+    "bom-ref": "npm/@inkjs/ui@2.0.0"
+   },
+   {
+    "type": "library",
+    "name": "ink",
+    "version": "^5.2.0",
+    "purl": "pkg:npm/ink@^5.2.0",
+    "bom-ref": "npm/ink@^5.2.0"
+   },
+   {
+    "type": "library",
+    "name": "react",
+    "version": "^18.3.1",
+    "purl": "pkg:npm/react@^18.3.1",
+    "bom-ref": "npm/react@^18.3.1"
+   },
+   {
+    "type": "library",
+    "name": "smol-toml",
+    "version": "^1.6.0",
+    "purl": "pkg:npm/smol-toml@^1.6.0",
+    "bom-ref": "npm/smol-toml@^1.6.0"
+   },
+   {
+    "type": "library",
+    "name": "ink-testing-library",
+    "version": "^4.0.0",
+    "purl": "pkg:npm/ink-testing-library@^4.0.0",
+    "bom-ref": "npm/ink-testing-library@^4.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/react",
+    "version": "^18.3.12",
+    "purl": "pkg:npm/@types/react@^18.3.12",
+    "bom-ref": "npm/@types/react@^18.3.12"
+   }
+  ]
+ },
+ "elapsed_seconds": 44.55
+}
