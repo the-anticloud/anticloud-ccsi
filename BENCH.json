@@ -540,10 +540,10 @@
  "version": "1.0.0",
  "source": {
   "git": {
-   "head": "904da5dfc6db75c836acfaa46c0f9cfb1838081c",
-   "url": "https://github.com/unix-ninja/ccsiege",
-   "branch": "master",
-   "sha_verified_from": "GitHub API commits/master | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/krayong/ccsidekick",
+   "head": "f0549b6a8f189fe02daa8d75abfa36a36cb58e16",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/unix-ninja/ccsiege"
   }
  }
 }
